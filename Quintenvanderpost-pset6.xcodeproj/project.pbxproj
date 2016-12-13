@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		39CE736F1DFD943F009020C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE736E1DFD943F009020C4 /* AppDelegate.swift */; };
-		39CE73711DFD943F009020C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE73701DFD943F009020C4 /* ViewController.swift */; };
 		39CE73741DFD943F009020C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39CE73721DFD943F009020C4 /* Main.storyboard */; };
 		39CE73761DFD943F009020C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39CE73751DFD943F009020C4 /* Assets.xcassets */; };
 		39CE73791DFD943F009020C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39CE73771DFD943F009020C4 /* LaunchScreen.storyboard */; };
+		39CE73811DFD9C9C009020C4 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE73801DFD9C9C009020C4 /* LoginController.swift */; };
+		39CE73851DFD9FD1009020C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39CE73841DFD9FD1009020C4 /* GoogleService-Info.plist */; };
+		39CE73881DFDA2E3009020C4 /* RepoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE73871DFDA2E3009020C4 /* RepoController.swift */; };
+		39CE738E1DFDA66F009020C4 /* RepoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE738D1DFDA66F009020C4 /* RepoCell.swift */; };
+		39CE73921DFDA919009020C4 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE73911DFDA919009020C4 /* Repo.swift */; };
+		39F7ABF91DFEB88800B67AE6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F7ABF81DFEB88800B67AE6 /* User.swift */; };
+		434FD512491CD28F182DD680 /* Pods_Quintenvanderpost_pset6.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C877F833BB85FE2CE20B182 /* Pods_Quintenvanderpost_pset6.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		39CE736B1DFD943F009020C4 /* Quintenvanderpost-pset6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quintenvanderpost-pset6.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39CE736E1DFD943F009020C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		39CE73701DFD943F009020C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		39CE73731DFD943F009020C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39CE73751DFD943F009020C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39CE73781DFD943F009020C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39CE737A1DFD943F009020C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39CE73801DFD9C9C009020C4 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		39CE73841DFD9FD1009020C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		39CE73871DFDA2E3009020C4 /* RepoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoController.swift; sourceTree = "<group>"; };
+		39CE738D1DFDA66F009020C4 /* RepoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoCell.swift; sourceTree = "<group>"; };
+		39CE73911DFDA919009020C4 /* Repo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		39F7ABF81DFEB88800B67AE6 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3C877F833BB85FE2CE20B182 /* Pods_Quintenvanderpost_pset6.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quintenvanderpost_pset6.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7158B447891F17A69E7CFED4 /* Pods-Quintenvanderpost-pset6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quintenvanderpost-pset6.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quintenvanderpost-pset6/Pods-Quintenvanderpost-pset6.release.xcconfig"; sourceTree = "<group>"; };
+		B86CA3D6B57FD1278316E3E6 /* Pods-Quintenvanderpost-pset6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quintenvanderpost-pset6.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quintenvanderpost-pset6/Pods-Quintenvanderpost-pset6.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				434FD512491CD28F182DD680 /* Pods_Quintenvanderpost_pset6.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03A0C5EDA2F120AF8EF0C766 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C877F833BB85FE2CE20B182 /* Pods_Quintenvanderpost_pset6.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		39CE73621DFD943F009020C4 = {
 			isa = PBXGroup;
 			children = (
 				39CE736D1DFD943F009020C4 /* Quintenvanderpost-pset6 */,
 				39CE736C1DFD943F009020C4 /* Products */,
+				839343054F67F8FF2192B26D /* Pods */,
+				03A0C5EDA2F120AF8EF0C766 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +79,76 @@
 		39CE736D1DFD943F009020C4 /* Quintenvanderpost-pset6 */ = {
 			isa = PBXGroup;
 			children = (
-				39CE736E1DFD943F009020C4 /* AppDelegate.swift */,
-				39CE73701DFD943F009020C4 /* ViewController.swift */,
-				39CE73721DFD943F009020C4 /* Main.storyboard */,
+				39CE73901DFDA8F9009020C4 /* Cells */,
+				39CE738C1DFDA313009020C4 /* Other */,
+				39CE73891DFDA2EE009020C4 /* Controllers */,
+				39CE738F1DFDA674009020C4 /* Models */,
+				39CE738A1DFDA2F9009020C4 /* Storyboards */,
 				39CE73751DFD943F009020C4 /* Assets.xcassets */,
-				39CE73771DFD943F009020C4 /* LaunchScreen.storyboard */,
-				39CE737A1DFD943F009020C4 /* Info.plist */,
+				39CE738B1DFDA30B009020C4 /* Support */,
 			);
 			path = "Quintenvanderpost-pset6";
+			sourceTree = "<group>";
+		};
+		39CE73891DFDA2EE009020C4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				39CE73801DFD9C9C009020C4 /* LoginController.swift */,
+				39CE73871DFDA2E3009020C4 /* RepoController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		39CE738A1DFDA2F9009020C4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				39CE73721DFD943F009020C4 /* Main.storyboard */,
+				39CE73771DFD943F009020C4 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		39CE738B1DFDA30B009020C4 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				39CE737A1DFD943F009020C4 /* Info.plist */,
+				39CE73841DFD9FD1009020C4 /* GoogleService-Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		39CE738C1DFDA313009020C4 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				39CE736E1DFD943F009020C4 /* AppDelegate.swift */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		39CE738F1DFDA674009020C4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				39CE73911DFDA919009020C4 /* Repo.swift */,
+				39F7ABF81DFEB88800B67AE6 /* User.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		39CE73901DFDA8F9009020C4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				39CE738D1DFDA66F009020C4 /* RepoCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		839343054F67F8FF2192B26D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B86CA3D6B57FD1278316E3E6 /* Pods-Quintenvanderpost-pset6.debug.xcconfig */,
+				7158B447891F17A69E7CFED4 /* Pods-Quintenvanderpost-pset6.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39CE737D1DFD943F009020C4 /* Build configuration list for PBXNativeTarget "Quintenvanderpost-pset6" */;
 			buildPhases = (
+				6BF55129FEB6795351732B8A /* [CP] Check Pods Manifest.lock */,
 				39CE73671DFD943F009020C4 /* Sources */,
 				39CE73681DFD943F009020C4 /* Frameworks */,
 				39CE73691DFD943F009020C4 /* Resources */,
+				3F9079A3FA9AF23226F33D95 /* [CP] Embed Pods Frameworks */,
+				DDAF582F274D5A80F731FE25 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39CE73791DFD943F009020C4 /* LaunchScreen.storyboard in Resources */,
+				39CE73851DFD9FD1009020C4 /* GoogleService-Info.plist in Resources */,
 				39CE73761DFD943F009020C4 /* Assets.xcassets in Resources */,
 				39CE73741DFD943F009020C4 /* Main.storyboard in Resources */,
 			);
@@ -132,13 +223,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F9079A3FA9AF23226F33D95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quintenvanderpost-pset6/Pods-Quintenvanderpost-pset6-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BF55129FEB6795351732B8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDAF582F274D5A80F731FE25 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quintenvanderpost-pset6/Pods-Quintenvanderpost-pset6-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		39CE73671DFD943F009020C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39CE73711DFD943F009020C4 /* ViewController.swift in Sources */,
 				39CE736F1DFD943F009020C4 /* AppDelegate.swift in Sources */,
+				39CE73881DFDA2E3009020C4 /* RepoController.swift in Sources */,
+				39F7ABF91DFEB88800B67AE6 /* User.swift in Sources */,
+				39CE73921DFDA919009020C4 /* Repo.swift in Sources */,
+				39CE73811DFD9C9C009020C4 /* LoginController.swift in Sources */,
+				39CE738E1DFDA66F009020C4 /* RepoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +400,7 @@
 		};
 		39CE737E1DFD943F009020C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B86CA3D6B57FD1278316E3E6 /* Pods-Quintenvanderpost-pset6.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9UM8KQFS44;
@@ -270,6 +414,7 @@
 		};
 		39CE737F1DFD943F009020C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7158B447891F17A69E7CFED4 /* Pods-Quintenvanderpost-pset6.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9UM8KQFS44;
@@ -300,6 +445,7 @@
 				39CE737F1DFD943F009020C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
