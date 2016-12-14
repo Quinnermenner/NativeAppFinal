@@ -129,6 +129,20 @@ class RepoController: UITableViewController {
         }
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let selectedRow = repoTable.indexPathForSelectedRow
+        performSegue(withIdentifier: "segueToCommitController", sender: selectedRow)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "segueToCommitController" {
+            let indexPath = self.repoTable.indexPathForSelectedRow
+            let repo = repos[(indexPath?.row)!]
+            let destination = segue.destination as! CommitController
+            destination.repo = repo
+        }
+    }
+    
     /*
     // Override to support rearranging the table view.
     override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {

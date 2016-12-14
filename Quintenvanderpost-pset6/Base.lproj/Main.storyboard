@@ -179,11 +179,92 @@
                     </navigationItem>
                     <connections>
                         <outlet property="repoTable" destination="3Br-Wn-ued" id="tUZ-9z-Hok"/>
+                        <segue destination="SKz-WO-Npu" kind="show" identifier="segueToCommitController" id="SLH-Hb-5mE"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XWZ-io-wUc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1870" y="139"/>
+        </scene>
+        <!--Commit Controller-->
+        <scene sceneID="d0d-4J-lCK">
+            <objects>
+                <tableViewController id="SKz-WO-Npu" customClass="CommitController" customModule="Quintenvanderpost_pset6" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="49m-js-Lfb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommitCell" id="0pY-ja-WMV" customClass="CommitCell" customModule="Quintenvanderpost_pset6" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0pY-ja-WMV" id="PTc-iq-3uN">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wfo-Dw-Ci7">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="8fc-wc-o7m">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6iY-LJ-a0q">
+                                                            <rect key="frame" x="0.0" y="0.0" width="75" height="22.5"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rcc-II-iM0">
+                                                            <rect key="frame" x="0.0" y="22.5" width="126" height="20.5"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Posted by:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lid-WT-4Lt">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="81" height="20.5"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mOd-L4-Y9B">
+                                                                    <rect key="frame" x="81" y="0.0" width="45" height="20.5"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="8fc-wc-o7m" firstAttribute="leading" secondItem="wfo-Dw-Ci7" secondAttribute="leading" id="ADe-1x-A3h"/>
+                                                <constraint firstAttribute="bottom" secondItem="8fc-wc-o7m" secondAttribute="bottom" id="KY2-nD-tcN"/>
+                                                <constraint firstItem="8fc-wc-o7m" firstAttribute="top" secondItem="wfo-Dw-Ci7" secondAttribute="top" id="r0a-YH-KGq"/>
+                                                <constraint firstAttribute="trailing" secondItem="8fc-wc-o7m" secondAttribute="trailing" id="rOo-K1-2hv"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="wfo-Dw-Ci7" firstAttribute="top" secondItem="PTc-iq-3uN" secondAttribute="top" id="1zz-wK-vKN"/>
+                                        <constraint firstAttribute="trailing" secondItem="wfo-Dw-Ci7" secondAttribute="trailing" id="Ry5-8o-gRo"/>
+                                        <constraint firstItem="wfo-Dw-Ci7" firstAttribute="leading" secondItem="PTc-iq-3uN" secondAttribute="leading" id="bFY-s5-89v"/>
+                                        <constraint firstAttribute="bottom" secondItem="wfo-Dw-Ci7" secondAttribute="bottom" id="lxq-g1-RYM"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="comment" destination="6iY-LJ-a0q" id="xaf-Tb-fM1"/>
+                                    <outlet property="name" destination="mOd-L4-Y9B" id="jjM-vK-PW3"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="SKz-WO-Npu" id="Riy-aZ-FE4"/>
+                            <outlet property="delegate" destination="SKz-WO-Npu" id="Je0-9V-0VN"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gqh-GR-4UH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2686" y="139"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="avz-tt-eio">

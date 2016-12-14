@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3900E9221E01602F007922ED /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3900E9211E01602F007922ED /* Commit.swift */; };
+		397DEB211E0046CE000A28DE /* CommitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397DEB201E0046CE000A28DE /* CommitController.swift */; };
+		397DEB231E004787000A28DE /* CommitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397DEB221E004787000A28DE /* CommitCell.swift */; };
 		39CE736F1DFD943F009020C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE736E1DFD943F009020C4 /* AppDelegate.swift */; };
 		39CE73741DFD943F009020C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39CE73721DFD943F009020C4 /* Main.storyboard */; };
 		39CE73761DFD943F009020C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39CE73751DFD943F009020C4 /* Assets.xcassets */; };
@@ -21,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3900E9211E01602F007922ED /* Commit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commit.swift; sourceTree = "<group>"; };
+		397DEB201E0046CE000A28DE /* CommitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommitController.swift; sourceTree = "<group>"; };
+		397DEB221E004787000A28DE /* CommitCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommitCell.swift; sourceTree = "<group>"; };
 		39CE736B1DFD943F009020C4 /* Quintenvanderpost-pset6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quintenvanderpost-pset6.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39CE736E1DFD943F009020C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39CE73731DFD943F009020C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -95,6 +101,7 @@
 			children = (
 				39CE73801DFD9C9C009020C4 /* LoginController.swift */,
 				39CE73871DFDA2E3009020C4 /* RepoController.swift */,
+				397DEB201E0046CE000A28DE /* CommitController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -130,6 +137,7 @@
 			children = (
 				39CE73911DFDA919009020C4 /* Repo.swift */,
 				39F7ABF81DFEB88800B67AE6 /* User.swift */,
+				3900E9211E01602F007922ED /* Commit.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -138,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				39CE738D1DFDA66F009020C4 /* RepoCell.swift */,
+				397DEB221E004787000A28DE /* CommitCell.swift */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -276,9 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3900E9221E01602F007922ED /* Commit.swift in Sources */,
 				39CE736F1DFD943F009020C4 /* AppDelegate.swift in Sources */,
 				39CE73881DFDA2E3009020C4 /* RepoController.swift in Sources */,
 				39F7ABF91DFEB88800B67AE6 /* User.swift in Sources */,
+				397DEB211E0046CE000A28DE /* CommitController.swift in Sources */,
+				397DEB231E004787000A28DE /* CommitCell.swift in Sources */,
 				39CE73921DFDA919009020C4 /* Repo.swift in Sources */,
 				39CE73811DFD9C9C009020C4 /* LoginController.swift in Sources */,
 				39CE738E1DFDA66F009020C4 /* RepoCell.swift in Sources */,
