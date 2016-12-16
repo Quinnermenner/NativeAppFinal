@@ -35,6 +35,8 @@ class RepoController: UITableViewController {
             self.repos = repoList
             self.repoTable.reloadData()
         })
+        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.estimatedRowHeight = 60
     }
     
     // Mark: Functions
